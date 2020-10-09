@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.17)  9 OCT 2020 10:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.17)  9 OCT 2020 11:00
 entering extended mode
 **./articulo.tex
 (articulo.tex
@@ -775,7 +775,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 240.
 Here is how much of TeX's memory you used:
  11177 strings out of 480790
  175440 string characters out of 2907046
- 493343 words of memory out of 3000000
+ 493309 words of memory out of 3000000
  26764 multiletter control sequences out of 15000+200000
  584764 words of font info for 210 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -786,7 +786,7 @@ Here is how much of TeX's memory you used:
 a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/palatino/uplbi8a.pfb><C:/Program
  Files/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files/MiKTeX/font
 s/type1/urw/palatino/uplri8a.pfb>
-Output written on articulo.pdf (4 pages, 593401 bytes).
+Output written on articulo.pdf (4 pages, 592794 bytes).
 PDF statistics:
  123 PDF objects out of 1000 (max. 8388607)
  16 named destinations out of 1000 (max. 500000)
