@@ -32,7 +32,7 @@
 \pagestyle{fancy} % All pages have headers and footers
 \fancyhead{} % Blank out the default header
 \fancyfoot{} % Blank out the default footer
-\fancyhead[C]{Virtualizacion y contenedores $\bullet$ Mayo 2019 $\bullet$ } % Custom header text
+\fancyhead[C]{Patrones de Diseño $\bullet$ Octubre 2020 $\bullet$ } % Custom header text
 \fancyfoot[RO,LE]{\thepage} % Custom footer text
 
 \usepackage{titling} % Customizing the title section
@@ -52,11 +52,18 @@
 \date{\today} % Leave empty to omit a date
 \renewcommand{\maketitlehookd}{%
 \begin{abstract}
-\noindent Los patrones de diseño son soluciones típicas a problemas que ocurren comúnmente en el diseño de software. Son como planos prefabricados que puede personalizar para resolver un problema de diseño recurrente en su código.
-
-No puede simplemente buscar un patrón y copiarlo en su programa, como puede hacerlo con las funciones o bibliotecas disponibles en el mercado. El patrón no es un código específico, sino un concepto general para resolver un problema en particular. Puede seguir los detalles del patrón e implementar una solución que se adapte a las realidades de su propio programa.
-
-Los patrones a menudo se confunden con algoritmos, porque ambos conceptos describen soluciones típicas a algunos problemas conocidos. Si bien un algoritmo siempre define un conjunto claro de acciones que pueden lograr algún objetivo, un patrón es una descripción de más alto nivel de una solución. El código del mismo patrón aplicado a dos programas diferentes puede ser diferente.
+	\begin{center}
+		\textbf{Resumen}
+	\end{center}
+	Por más específico que un problema sea en el desarrollo de software, existe una gran probabilidad de que alguien haya enfrentado a un problema muy similar en el pasado, de cual en el momento se pueda modelar de la misma forma.\\
+	La estructura de las clases se refieren al modelado, por lo que esta estructura conforma la solución de problema , que probablemente puede estar inventada. Si la manera de solucionar ese problema tiene los siguientes factores: extracción, explicación y reutilización en los múltiples ámbitos, se puede analizar que es un patrón de diseño de software.\\
+	\begin{center}
+		
+		\textbf{Abstract}
+	\end{center}
+	No matter how specific a problem is in software development, there is a high probability that someone has faced a very similar problem in the past, which at the moment can be modeled in the same way.
+	The structure of the classes refers to the modeling, so this structure makes up the problem solution, which can probably be invented. If the way to solve that problem has the following factors: extraction, explanation and reuse in the multiple domains, it can be analyzed that it is a software design pattern.
+	\\
 \end{abstract}
 }
 
@@ -73,17 +80,92 @@ Los patrones a menudo se confunden con algoritmos, porque ambos conceptos descri
 
 \section{Introduccion}
 
-\lettrine[nindent=0em,lines=3]{L}a mayoría de los patrones se describen de manera muy formal para que las personas puedan reproducirlos en muchos contextos. Estas son las secciones que suelen estar presentes en una descripción de patrón:
-
-La intención del patrón describe brevemente tanto el problema como la solución.
-La motivación explica además el problema y la solución que el patrón hace posible.
-La estructura de clases muestra cada parte del patrón y cómo están relacionadas.
-El ejemplo de código en uno de los lenguajes de programación populares hace que sea más fácil captar la idea detrás del patrón.
-Algunos catálogos de patrones enumeran otros detalles útiles, como la aplicabilidad del patrón, los pasos de implementación y las relaciones con otros patrones.
-
+\lettrine[nindent=0em,lines=3]{L}os patrones de diseño han demostrado ser un medio útil de
+capturando soluciones de diseño probadas en el tiempo y facilitando su reutilización.
+Los patrones apuntan a representar explícitamente el conocimiento de diseño que es
+entendido implícitamente por profesionales calificados.
+Quizás en ninguna parte el enfoque del patrón ha sido más efectivo
+que en la ingeniería de software. Gamma y col. [1] describe el software
+diseñar patrones como "descripciones de objetos comunicantes y
+clases personalizadas para resolver problemas de diseño dentro de un
+contexto particular ".
+Las descripciones en la literatura de investigación a menudo colocan más
+énfasis en características novedosas que en patrones de diseño recurrentes. Como un
+resultado, puede ser difícil identificar, evaluar y volver a aplicar el diseño
+en soluciones implementadas dentro de los marcos existentes
 
 
 %------------------------------------------------
+%-----------------------------------------------------------------
+\section {Marco Teórico}\label{sec:3}
+\subsection{ Historia}
+\subsection{ Patrones de Diseño de Software}
+Los patrones de diseño son soluciones típicas a problemas comunes en el diseño de software. Son como planos prefabricados que puede personalizar para resolver un problema de diseño recurrente en su código.
+Un patrón de diseño es una descripción de clases y objetos comunicándose entre sí adaptada para resolver un problema de diseño general en un contexto particular.\cite{Tanembaum3}
+
+\subsection{ Elementos de un patrón}
+\begin{itemize}
+	\item \textbf{Patrones de diseño creacionales:} nombre estándar del patrón por el cual será reconocido en la comunidad \cite{Tanembaum1}
+	\item \textbf{Clasificación del patrón:} creacional, estructural o de comportamiento.\cite{Tanembaum1}
+	\item \textbf{Intención:} ¿qué problema pretende resolver el patrón?\cite{Tanembaum1}
+	\item \textbf{Motivación:} Escenario de ejemplo para la aplicación del patrón.\cite{Tanembaum1}
+	\item \textbf{Consecuencias:} consecuencias positivas y negativas en el diseño derivadas de la aplicación del patrón\cite{Tanembaum1}	
+\end{itemize}
+
+\subsection{Clasificación de los patrones}
+\begin{itemize}
+	\item \textbf{Patrones de diseño creacionales}
+	\\
+	\\Son patrones de diseño que se ocupan de los mecanismos de creación de objetos, tratando de crear objetos de manera adecuada a la situación. La forma básica de creación de objetos podría ocasionar problemas de diseño o agregar complejidad al diseño. Los patrones de diseño creacionales resuelven este problema controlando de alguna manera la creación de este objeto.\cite{Tanembaum2}
+	\begin{itemize}
+		\item \textbf{Fábrica abstacta:}	crea una instancia de varias familias de clases.
+		\item \textbf{El constructor:} bstrae el proceso de creación de un objeto complejo, centralizando dicho proceso en un único punto.
+		\item \textbf{Método de fabricación:} crea una instancia de varias clases derivadas.
+		\item \textbf{Grupo de objetos:}	evita la adquisición costosa y la liberación de recursos al reciclar objetos que ya no están en uso.
+		\item \textbf{Prototipo:} una instancia completamente inicializada para ser copiada o clonada.
+		\item \textbf{Instancia única:} garantiza la existencia de una única instancia para una clase y la creación de un mecanismo de acceso global a dicha instancia. Restringe la instanciación de una clase o valor de un tipo a un solo objeto.
+	\end{itemize}
+	
+	\item \textbf{Patrones de diseño estructural}
+	\\
+	\\Estos patrones de diseño tienen que ver con la composición de clases y objetos. Los patrones estructurales de creación de clases utilizan la herencia para componer interfaces. Los patrones de objetos estructurales definen formas de componer objetos para obtener una nueva funcionalidad.\cite{r}
+	\begin{itemize}
+		\item \textbf{Adaptador:}	crea una instancia de varias familias de clases.
+		\item \textbf{Puente:} separa la interfaz de un objeto de su implementación.
+		\item \textbf{Objeto Compuesto:} permite tratar objetos compuestos como si de uno simple se tratase.
+		\item \textbf{Decorador:}	permite tratar objetos compuestos como si de uno simple se tratase.
+		\item \textbf{Fachada:} una sola clase que representa un subsistema completo.
+		\item \textbf{Peso ligero:} reduce la redundancia cuando gran cantidad de objetos poseen idéntica información.
+		\item \textbf{Proxy:} proporciona un intermediario de un objeto para controlar su acceso.
+		\item \textbf{Módulo:} agrupa varios elementos relacionados, como clases, singletons, y métodos, utilizados globalmente, en una entidad única.
+	\end{itemize}
+	
+	\item \textbf{Patrones de diseño de comportamiento}
+	\\
+	\\Estos patrones de diseño tienen que ver con la comunicación de objetos de Class. Los patrones de comportamiento son aquellos que se ocupan más específicamente de la comunicación entre objetos.\cite{r}
+	\begin{itemize}
+		\item \textbf{Cadena de responsabilidad:} permite establecer la línea que deben llevar los mensajes para que los objetos realicen la tarea indicada.
+		\item \textbf{Orden:} encapsula una operación en un objeto, permitiendo ejecutar dicha operación sin necesidad de conocer el contenido de la misma.
+		\item \textbf{Intérprete:} dado un lenguaje, define una gramática para dicho lenguaje, así como las herramientas necesarias para interpretarlo.
+		\item \textbf{Iterador:} permite realizar recorridos sobre objetos compuestos independientemente de la implementación de estos.
+		\item \textbf{Mediador:} define un objeto que coordine la comunicación entre objetos de distintas clases, pero que funcionan como un conjunto.
+		\item \textbf{Recuerdo:} permite volver a estados anteriores del sistema.
+		\item \textbf{Observador:} define una dependencia de uno-a-muchos entre objetos, de forma que cuando un objeto cambie de estado se notifique y actualicen automáticamente todos los objetos que dependen de él.
+		\item \textbf{Estado:} permite que un objeto modifique su comportamiento cada vez que cambie su estado interno.
+		\item \textbf{Estrategia:} permite disponer de varios métodos para resolver un problema y elegir cuál utilizar en tiempo de ejecución.
+		\item \textbf{Método plantilla:} define en una operación el esqueleto de un algoritmo, delegando en las subclases algunos de sus pasos, esto permite que las subclases redefinan ciertos pasos de un algoritmo sin cambiar su estructura.
+		\item \textbf{Visitante:} permite definir nuevas operaciones sobre una jerarquía de clases sin modificar las clases sobre las que opera.
+	\end{itemize}
+\end{itemize}
+\subsection{Ventajas del uso de patrones}
+
+\begin{itemize}
+	\item Conforman un amplio catálogo de problemas y soluciones.
+	\item Estandarizan la resolución de determinados problemas.
+	\item Condensan y simplifican el aprendizaje de las buenas prácticas.
+	\item Proporcionan un vocabulario común entre desarrolladores.
+	
+\end{itemize}
 
 \section{Objetivos}
 
@@ -100,96 +182,17 @@ patrones que resuelven varios problemas de diseño orientado a objetos
 
 
 %------------------------------------------------
-
-\section{Desarrollo}
-
-\subsection{¿.................................?}
-
-...................................................................................
-
-\begin{center}
-	\includegraphics[width=5cm]{./Imagenes/virtualizacion} 
-	\end{center}
-
-
-
-
-\subsection{¿........................?}
-
-........................................................................\\
-........................................................................\\
-...........................................................................
-
+%-----------------------------------------------------------------
+\section{Conclusiones}\label{sec:6}
 \begin{itemize}
-\item .....................................
-\\ -------------------------------------------------------------
-\\.......
-\\-------------------------------------------------------------------------------------------
-\\ \textbf{-........................................................}
+	\item Los patrones de diseño ayudan al arquitecto a resolver problemas frecuentes en términos de composiciones utilizadas como esquemas de trabajo, cuyo punto de partida es un conjunto predefinido de componentes y conexiones válidas.
+\end{itemize}
+\section{Recomendaciones}\label{sec:7}
 
+% Bibliografia.
+%-----------------------------------------------------------------
 
-\begin{center}
-	\includegraphics[width=5cm]{./Imagenes/docker} 
-	\end{center}
-
-Ventajas
-\\ \textbf{- .......................................................}
- 
-
-Desventajas
-\\ \textbf{- .......................................................}
-\end{itemize} 
-
-\subsection{----------------------------------------------------?}
-------------------------------------------------------------------
-
-\begin{itemize}
-	\item .....................................................
-	\\ \textbf{-App} .......................................
-	\\ \textbf{-App} .....................................
-	\begin{center}
-	\includegraphics[width=5cm]{./Imagenes/jerarquia1} 
-	\end{center}
-\end{itemize} 
-
-\begin{itemize}
-	\item ..................................
-.
-	\\ \textbf{-App} .....................................
-	\begin{center}
-	\includegraphics[width=5cm]{./Imagenes/jerarquia2} 
-	\end{center}
-\end{itemize} 
-
-\begin{itemize}
-	\item -------------------------------------------------------------------
-		\item -------------------------------------------------------------------
-			\item -------------------------------------------------------------------
-	\item -------------------------------------------------------------------
-
-
-
-\end{itemize} 
-
-\section{Conclusiones}
-
----------------------------------------------------------------------------------.
-%----------------------------------------------------------------------------------------
-%	REFERENCE LIST
-%----------------------------------------------------------------------------------------
-
-\begin{thebibliography}{99} % Bibliography - this is intentionally simple in this template
-
-\bibitem[Martin, 2011]{Diego Martin:2011dg}
-Martin, M.M,  y J.U (2011).
-\newblock Virtualización, una solución para la eficiencia,
-seguridad y administración de intranets
-\newblock {\em El profesional de la informacion}, 350.
-\newblock Contenedor de aplicaciones: Docker (2015)
- 
- 
-\end{thebibliography}
-
-%----------------------------------------------------------------------------------------
+\bibliographystyle{plain}
+\bibliography{Bibliografia}
 
 \end{document}
