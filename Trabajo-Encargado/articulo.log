@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.17)  9 OCT 2020 10:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.17)  9 OCT 2020 10:44
 entering extended mode
 **./articulo.tex
 (articulo.tex
@@ -692,67 +692,70 @@ File: ./Imagenes/8.png Graphic file (type png)
 <use ./Imagenes/8.png>
 Package pdftex.def Info: ./Imagenes/8.png  used on input line 159.
 (pdftex.def)             Requested size: 142.26378pt x 91.59778pt.
+<./Imagenes/9.png, id=75, 335.00156pt x 280.79906pt>
+File: ./Imagenes/9.png Graphic file (type png)
+<use ./Imagenes/9.png>
+Package pdftex.def Info: ./Imagenes/9.png  used on input line 163.
+(pdftex.def)             Requested size: 142.26378pt x 119.2459pt.
 
 
-LaTeX Warning: Citation `r' on page 3 undefined on input line 171.
+LaTeX Warning: Citation `r' on page 3 undefined on input line 174.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 169--173
+Underfull \hbox (badness 10000) in paragraph at lines 172--176
 
  []
 
 
-Underfull \hbox (badness 1533) in paragraph at lines 169--173
+Underfull \hbox (badness 1533) in paragraph at lines 172--176
 \T1/pplx/m/n/10 (+20) Estos pa-trones de dis-eño tienen que
  []
 
 
-Underfull \hbox (badness 1394) in paragraph at lines 169--173
+Underfull \hbox (badness 1394) in paragraph at lines 172--176
 \T1/pplx/m/n/10 (+20) son aque-l-los que se ocu-pan más es-
  []
 
-[3 <./Imagenes/7.png> <./Imagenes/8.png>]
-<./Imagenes/1.png, id=81, 671.50874pt x 453.19313pt>
+[3 <./Imagenes/7.png> <./Imagenes/8.png> <./Imagenes/9.png>]
+<./Imagenes/1.png, id=83, 671.50874pt x 453.19313pt>
 File: ./Imagenes/1.png Graphic file (type png)
 <use ./Imagenes/1.png>
-Package pdftex.def Info: ./Imagenes/1.png  used on input line 205.
+Package pdftex.def Info: ./Imagenes/1.png  used on input line 208.
 (pdftex.def)             Requested size: 142.26378pt x 96.01009pt.
  (articulo.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 225.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 228.
 
-Underfull \hbox (badness 10000) in paragraph at lines 223--225
+Underfull \hbox (badness 10000) in paragraph at lines 226--228
 \T1/pplx/m/n/10 (+20) https://refactoring.guru/design-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 223--225
+Underfull \hbox (badness 10000) in paragraph at lines 226--228
 \T1/pplx/m/n/10 (+20) patterns http://siul02.si.ehu.es/ al-
  []
 
-[4
-
- <./Imagenes/1.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 225.
+[4 <./Imagenes/1.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 228.
  (articulo.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 225.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 225.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 228.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 228.
 Package rerunfilecheck Info: File `articulo.out' has not changed.
 (rerunfilecheck)             Checksum: 4EED6A5A26038DCCC19B99F0AC56A5B3;668.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 225.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 228.
  ) 
 Here is how much of TeX's memory you used:
- 11137 strings out of 480790
- 174748 string characters out of 2907046
+ 11145 strings out of 480790
+ 174880 string characters out of 2907046
  493307 words of memory out of 3000000
- 26729 multiletter control sequences out of 15000+200000
+ 26736 multiletter control sequences out of 15000+200000
  584764 words of font info for 210 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  40i,13n,45p,436b,575s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -762,9 +765,9 @@ Here is how much of TeX's memory you used:
 a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/palatino/uplbi8a.pfb><C:/Program
  Files/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files/MiKTeX/font
 s/type1/urw/palatino/uplri8a.pfb>
-Output written on articulo.pdf (4 pages, 443342 bytes).
+Output written on articulo.pdf (4 pages, 474350 bytes).
 PDF statistics:
- 113 PDF objects out of 1000 (max. 8388607)
+ 115 PDF objects out of 1000 (max. 8388607)
  16 named destinations out of 1000 (max. 500000)
- 47233 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 47238 words of extra memory for PDF output out of 51595 (max. 10000000)
 
