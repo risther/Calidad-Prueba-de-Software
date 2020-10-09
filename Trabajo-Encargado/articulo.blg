@@ -4,69 +4,12 @@ The top-level auxiliary file: articulo.aux
 Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: plain.bst
 Reallocating 'name_of_file' (item size: 1) to 13 items.
-Database file #1: Bibliografia.bib
-""" immediately follows an entry type---line 38 of file Bibliografia.bib
- :     <meta name="twitter:image:src" content="https://avatars2.githubusercontent.com/u/37305214?s=400&amp;v=4" /><meta name="twitter:site" content="@github
- :                                                                                                                                                          " /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="virginiayjd7/Patrones-de-Dise-o-de-Software" /><meta name="twitter:description" content="Calidad y Pruebas de Software. Contribute to virginiayjd7/Patrones-de-Dise-o-de-Software development by creating an account on GitHub." />
-I'm skipping whatever remains of this entry
-""" immediately follows an entry type---line 326 of file Bibliografia.bib
- :       <img class="avatar avatar-user" src="https://avatars1.githubusercontent.com/u/42425245?s=40&amp;v=4" width="20" height="20" alt="@yofernaincatari
- :                                                                                                                                                        " />
-I'm skipping whatever remains of this entry
-""" immediately follows an entry type---line 413 of file Bibliografia.bib
- :   alt="@yofernaincatari
- :                        "
-I'm skipping whatever remains of this entry
-You're missing an entry type---line 473 of file Bibliografia.bib
- :               <text-expander keys=": @
- :                                       " data-mention-url="/autocomplete/user-suggestions" data-emoji-url="/autocomplete/emoji">
-I'm skipping whatever remains of this entry
-I was expecting a `{' or a `('---line 762 of file Bibliografia.bib
- :                 
- :                 <span class="hidden-select-button-text" data-menu-button-contents>
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-I was expecting a `{' or a `('---line 774 of file Bibliografia.bib
- :                 
- :                 <span class="hidden-select-button-text" data-menu-button-contents>
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-""" immediately follows an entry type---line 1035 of file Bibliografia.bib
- :           <a rel="author" data-skip-pjax="true" data-hovercard-type="user" data-hovercard-url="/users/virginiayjd7/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/virginiayjd7"><img class="avatar avatar-user" src="https://avatars2.githubusercontent.com/u/37305214?s=48&amp;v=4" width="24" height="24" alt="@virginiayjd7
- :                                                                                                                                                                                                                                                                                                                                                                               " /></a>
-I'm skipping whatever remains of this entry
-""" immediately follows an entry type---line 1094 of file Bibliografia.bib
- :       <img class="avatar mr-2 avatar-user" src="https://avatars2.githubusercontent.com/u/37305214?s=48&amp;v=4" width="24" height="24" alt="@virginiayjd7
- :                                                                                                                                                          " />
-I'm skipping whatever remains of this entry
-""" immediately follows an entry type---line 1096 of file Bibliografia.bib
- :       <img class="avatar mr-2 avatar-user" src="https://avatars3.githubusercontent.com/u/65321907?s=48&amp;v=4" width="24" height="24" alt="@TorresJ666
- :                                                                                                                                                        " />
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 1157 of file Bibliografia.bib
- :         <td id="LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@book</span> {<span 
- :                                                                                                            class="pl-en">r</span>,</td>
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 1185 of file Bibliografia.bib
- :         <td id="LC8" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@inbook</span>{<span 
- :                                                                                                             class="pl-en">Tanembaum1</span>,</td>
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 1221 of file Bibliografia.bib
- :         <td id="LC17" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@inbook</span>{<span 
- :                                                                                                              class="pl-en">Tanembaum2</span>,</td>
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 1257 of file Bibliografia.bib
- :         <td id="LC26" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@inbook</span>{<span 
- :                                                                                                              class="pl-en">Tanembaum3</span>,</td>
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 1298 of file Bibliografia.bib
- :         <td id="LC36" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@article</span>{<span 
- :                                                                                                               class="pl-en">Augustin07</span>,</td>
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 1367 of file Bibliografia.bib
- :         <td id="LC53" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@article</span>{<span 
- :                                                                                                               class="pl-en">MPLS_paper</span>,</td>
-I'm skipping whatever remains of this entry
+I couldn't open database file bibliografia.bib
+---line 39 of file articulo.aux
+ : \bibdata{bibliografia
+ :                      }
+I'm skipping whatever remains of this command
+I found no database files---while reading file articulo.aux
 Warning--I didn't find a database entry for "Tanembaum3"
 Warning--I didn't find a database entry for "Tanembaum1"
 Warning--I didn't find a database entry for "Tanembaum2"
@@ -112,4 +55,4 @@ warning$ -- 0
 while$ -- 0
 width$ -- 0
 write$ -- 2
-(There were 15 error messages)
+(There were 2 error messages)
