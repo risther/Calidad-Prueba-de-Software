@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.17)  9 OCT 2020 09:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.17)  9 OCT 2020 09:38
 entering extended mode
 **./articulo.tex
 (articulo.tex
@@ -706,7 +706,7 @@ Here is how much of TeX's memory you used:
 a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/palatino/uplbi8a.pfb><C:/Program
  Files/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files/MiKTeX/font
 s/type1/urw/palatino/uplri8a.pfb>
-Output written on articulo.pdf (3 pages, 109488 bytes).
+Output written on articulo.pdf (3 pages, 109668 bytes).
 PDF statistics:
  88 PDF objects out of 1000 (max. 8388607)
  14 named destinations out of 1000 (max. 500000)
